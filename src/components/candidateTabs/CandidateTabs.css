@@ -1,0 +1,29 @@
+.candidate-tabs {
+  background-color: var(--bg-section);
+  display: flex;
+  border: none;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--bg-section);
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  color: var(--text-dark);
+}
+
+.tab-button.active {
+  color: var(--primary-blue);
+  border-bottom-color: var(--primary-blue);
+  font-weight: 600;
+  background-color: var(--bg-white);
+  border-top: 1px solid var(--bg-section);
+}

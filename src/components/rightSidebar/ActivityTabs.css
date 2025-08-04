@@ -1,0 +1,23 @@
+.right-tabs-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 26px;
+  background-color: #E9ECEF;
+}
+
+.right-tab-button {
+  border: none;
+  color: #343A40;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.right-tab-button.active {
+  color: #2570CA;
+}
+
+.right-tab-label{
+  background: transparent;
+}

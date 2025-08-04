@@ -1,0 +1,23 @@
+.activity-header-icons{
+    background-color: var(--bg-white);
+    display: flex;
+    flex-direction: row;
+    padding: 24px 16px;
+    gap: 24px;
+}
+
+.activity-action-btn{
+    background-color: var(--bg-light);
+    color: var(--primary-blue);
+    border: none;
+    padding: 12px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-action-btn.action-icon{
+    height: 15px;
+    width: 15px;
+}

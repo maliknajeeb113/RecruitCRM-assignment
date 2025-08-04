@@ -1,0 +1,176 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 60px; /* Account for sidebar width */
+  right: 0;
+  height: 64px;
+  background-color: #ffffff;
+  color: #1e293b;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.topbar-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 16px;
+  position: relative;
+}
+
+.topbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.company-logo {
+  height: 24px;
+  width: auto;
+}
+
+.search-container {
+  position: relative;
+  background-color: #f8fafc;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  max-width: 300px;
+  transition: all 0.2s ease;
+  margin-right: auto;
+}
+
+.search-container:hover {
+  border-color: #cbd5e1;
+}
+
+.search-container:focus-within {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon svg {
+  font-size: 18px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px 12px 48px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: #1e293b;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #64748b;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px; 
+  margin-left: auto;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.topbar-divider {
+  width: 2px;
+  height: 32px;
+  background-color: #e2e8f0;
+  margin: 0 4px; 
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 12px; 
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+
+}
+
+.profile-section:hover {
+  background-color: #f8fafc;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+}
+
+.profile-icon svg {
+  font-size: 36px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.profile-title {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  color: #64748b;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s ease;
+  border-radius: 100%;
+  border: 1px solid #C8CCD2;  
+}
+.add{
+    color: #1170CA;
+  }
+
+.action-button svg {
+  font-size: 24px;
+}
+
+.action-button:hover {
+  background-color: #f1f5f9;
+  color: #1170CA;
+}
+
+

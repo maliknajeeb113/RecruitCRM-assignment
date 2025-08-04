@@ -1,0 +1,75 @@
+.candidate-header {
+  background-color: #E9ECEF;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 8px 16px;
+}
+
+.candidate-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  
+  gap: 8px;
+}
+
+.breadcrumb-item {
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.breadcrumb-item.current {
+  color: #1F5FAC;
+}
+
+.breadcrumb-separator {
+  font-size: 16px;
+  color: #1F5FAC;
+}
+
+.breadcrumb-id {
+  font-size: 12px;
+  color: #343A40;
+  margin-left: 4px;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  padding: 1px 6px; 
+}
+
+/* 1F5FAC */
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-btn {
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #1e293b;
+  padding: 8px 16px;
+  border: 1px solid #CED4DA;
+  min-width: auto;
+  white-space: nowrap;
+}
+
+.action-btn:hover {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+}

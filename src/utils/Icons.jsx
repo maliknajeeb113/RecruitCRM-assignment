@@ -7,7 +7,6 @@ import {
   Search,
   NotificationsNone,
   AccountCircle,
-  AddCircleRounded,
   BusinessCenterRounded,
   EmailOutlined,
   InsertInvitationOutlined,

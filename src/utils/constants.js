@@ -49,7 +49,7 @@ export const sampleNotes = [
   {
     id: 1,
     type: 'notes',
-    content: 'Follow up call scheduled with candidate to discuss role requirements and expectations.',
+    content: 'Lorem dolore sit et aute cupidatat eu Lorem tempor proident consequat. In dolore mollit laborum ex cillum laboris occaecat ipsum Lorem cupidatat.',
     author: 'John Doe',
     date: 'Jul 14, 2023, 4:04 pm',
     associations: '1 Association(s)',
@@ -59,7 +59,7 @@ export const sampleNotes = [
   {
     id: 2,
     type: 'notes',
-    content: 'Initial interview completed. Candidate shows strong technical skills and good cultural fit.',
+    content: 'Lorem dolore sit et aute cupidatat eu Lorem tempor proident consequat. In dolore mollit laborum ex cillum laboris occaecat ipsum Lorem cupidatat.',
     author: 'John Doe',
     date: 'Jul 12, 2023, 11:54 am',
     associations: '1 Association(s)',
@@ -69,7 +69,7 @@ export const sampleNotes = [
   {
     id: 3,
     type: 'notes',
-    content: 'Resume reviewed and shortlisted for next round. Technical assessment scheduled.',
+    content: 'Lorem dolore sit et aute cupidatat eu Lorem tempor proident consequat. In dolore mollit laborum ex cillum laboris occaecat ipsum Lorem cupidatat.',
     author: 'John Doe',
     date: 'Jul 12, 2023, 11:54 am',
     associations: '1 Association(s)',

@@ -14,7 +14,6 @@ export const useEditMode = () => {
 
 export const EditModeProvider = ({ children }) => {
   const [isEditMode, setIsEditMode] = useState(false);
-  
   const [candidateData, setCandidateData] = useState(defaultCandidateData);
 
   const value = {
